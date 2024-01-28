@@ -78,7 +78,7 @@ export const POST = async (request: Request) => {
         logo_url || image_url,
         "org bio",
         created_by
-      );
+      );   
 
       return NextResponse.json({ message: "User created" }, { status: 201 });
     } catch (err) {
